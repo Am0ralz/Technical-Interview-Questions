@@ -1,8 +1,4 @@
-Week 2 - Hash maps and sets. Tries
-Goals
-Hash maps and hash sets are arguably the most important data structures students will need for coding interviews. They come up all the time either directly, or indirectly (say to build a graph). This week we want to make sure students are VERY comfortable using hash maps, hash sets and we also focus a bit on multisets which are an extension of hash sets.
-
-Topics
+opics
 Hash maps
 
 Hash sets
