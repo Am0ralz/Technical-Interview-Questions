@@ -1,10 +1,3 @@
-Week 3 - Greedy, recursive and DP algorithms
-Goals
-By the end of this week, students should be able to:
-write simple recursive algorithms,
-use memoization and/or dynamic programming to improve the run-time of their recursive solutions,
-Notice when sorting and searching (in particular binary searching) are the right tools/algorithms,
-and to do sorting and searching with ease in their programming language of choice.
 Topics
 Greedy algorithms
 Binary search
@@ -44,4 +37,4 @@ https://leetcode.com/problems/powx-n
 https://leetcode.com/problems/best-time-to-buy-and-sell-stock
 https://leetcode.com/problems/edit-distance
 https://leetcode.com/problems/house-robber-ii
-Do not use a built-in regex for this one! https://leetcode.com/problems/regular-expression-matching/ (edited) 
+Do not use a built-in regex for this one! https://leetcode.com/problems/regular-expression-matching/ 
