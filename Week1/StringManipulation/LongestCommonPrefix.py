@@ -20,14 +20,15 @@ class Solution(object):
         :type strs: List[str]
         :rtype: str
         """
+        if not strs:
+            return ""
+
         ans = ""
-        a=len(min(strs, key=len))
-        for i in range(0, a):
-            for j in strs[1:]:
-                if j[i] != strs[0][i]:
-                    return ans
-            ans += strs[0][i]
+        a = min(strs, key=len)
+        for i in range(len(a)):
+            for word in strs:
+                if word != a:
+                    if word[i] != a[i]:
+                        return ans
+            ans += a[i]
         return ans
-
-
-
